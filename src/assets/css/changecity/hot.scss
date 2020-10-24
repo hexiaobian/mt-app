@@ -1,0 +1,22 @@
+.m-hcity {
+  dl {
+    display: flex;
+    padding: 8px;
+    dt {
+      font-size: 16px;
+      color: #333;
+      font-weight: 500;
+    }
+
+    dd {
+      margin: 0 20px;
+      color: #666;
+      line-height: 22px;
+      font-size: 14px;
+      cursor: pointer;
+      &:hover{
+        color: #222222;
+      }
+    }
+  }
+}
